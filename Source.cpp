@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+// Function to list all rooms
 void list(int room[5],int people[5])
 {
 	cout << "Occupied Rooms: " << endl;
@@ -19,6 +21,8 @@ void list(int room[5],int people[5])
 	}
 
 }
+
+// Function to checkin customers
 void checkin(int room[5], int people[5]) {
 	int residents = 0;
 	cout << "Enter number of residents: ";
@@ -33,6 +37,9 @@ void checkin(int room[5], int people[5]) {
 		}
 	  }
 }
+
+// Function to checkout customers
+
 void checkout(int room[5], int people[5]) {
 	int room1 = 0;
 	cout << "Enter room number: ";
