@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Function to list all rooms.
+// Function to list all rooms. Sure ok
 void list(int room[5],int people[5])
 {
 	cout << "Occupied Rooms: " << endl;
